@@ -8,10 +8,11 @@ function HookMore() {
     for (let i = 0; i < 5; i++) {
       setCount((prevCount) => prevCount + 1);
     }
+    // setCount((prevCount) => prevCount + 5);
   };
   return (
     <div className="hook-more">
-      <h2>Hook Advanced</h2>
+      <h2>Hook using prevState</h2>
       <h4>Count: {count}</h4>
       <div>
         <button onClick={() => setCount(initialCount)}>Reset</button>

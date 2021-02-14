@@ -16,3 +16,13 @@ code {
   margin-top: 15px;
   margin-bottom: 20px;
 }
+
+.input-text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+h2,
+h3 {
+  text-decoration: underline;
+}
