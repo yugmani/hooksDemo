@@ -5,6 +5,7 @@ import HookCounter from "./components/HookCounter";
 import HookMore from "./components/HookMore";
 import ClassHookMore from "./components/ClassHookMore";
 import HookCounterThree from "./components/HookCounterThree";
+import HookCounterFour from "./components/HookCounterFour";
 
 function App() {
   return (
@@ -12,11 +13,18 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <ClassCounter />
-      <HookCounter />
-      <HookMore />
-      <ClassHookMore />
-      <HookCounterThree />
+      <div className="component-flex">
+        <ClassCounter />
+        <HookCounter />
+      </div>
+      <div className="component-flex">
+        <HookMore />
+        <ClassHookMore />
+      </div>
+      <div className="component-flex">
+        <HookCounterThree />
+        <HookCounterFour />
+      </div>
     </div>
   );
 }

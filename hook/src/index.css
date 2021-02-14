@@ -26,3 +26,28 @@ h2,
 h3 {
   text-decoration: underline;
 }
+
+.hook-array {
+  margin: 0 auto;
+  background-color: whitesmoke;
+  margin-bottom: 25px;
+}
+
+.hook-array li {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.component-flex {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.component-center {
+  width: 40%;
+  margin-bottom: 20px;
+  background-color: lightgray;
+  padding-bottom: 10px;
+}

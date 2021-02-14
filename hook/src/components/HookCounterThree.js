@@ -4,7 +4,7 @@ function HookCounterThree() {
   const [name, setName] = useState({ firstName: "", lastName: "" });
 
   return (
-    <div>
+    <div className="component-center">
       <h2>Hook Using Objects</h2>
       <form>
         First Name:{" "}

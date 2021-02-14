@@ -11,7 +11,7 @@ function HookMore() {
     // setCount((prevCount) => prevCount + 5);
   };
   return (
-    <div className="hook-more">
+    <div className="component-center">
       <h2>Hook using prevState</h2>
       <h4>Count: {count}</h4>
       <div>

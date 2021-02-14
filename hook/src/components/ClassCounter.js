@@ -17,7 +17,7 @@ class ClassCounter extends Component {
 
   render() {
     return (
-      <div>
+      <div className="component-center">
         <h2>Class Component</h2>
         <h4>You clicked {this.state.count} times</h4>
         <button onClick={this.incrementCount}>Click here</button>

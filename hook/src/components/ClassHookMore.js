@@ -19,8 +19,8 @@ class ClassHookMore extends Component {
 
   render() {
     return (
-      <div>
-        <h3>Class with prevState</h3>
+      <div className="component-center">
+        <h2>Class with prevState</h2>
         <button onClick={this.incrementCount}>Count: {this.state.count}</button>
       </div>
     );
